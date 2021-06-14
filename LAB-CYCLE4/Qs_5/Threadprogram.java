@@ -1,8 +1,8 @@
-package Qs5;
+package Qs_5;
 import java.util.*;
 
 public class Threadprogram {
-    public static void Main(String args[]) throws InterruptedException
+    public static void main(String args[]) throws InterruptedException
     {
         ThreadA a=new ThreadA();
         ThreadB b=new ThreadB();
@@ -10,7 +10,6 @@ public class Threadprogram {
         a.sleep(200);
         b.start();
         b.sleep(200);
-        System.out.println("....Multithreading is over");
 
 
     }
